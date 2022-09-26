@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int A,B,c;
+clrscr();
+printf("Insert the value of A:");
+scanf("%d",&A);
+printf("Insert the value of B:");
+scanf("%d",&B);
+c=A;
+A=B;
+B=c;
+printf("The swapping value of A is:%d\n",A);
+printf("The swapping value of B is:%d\n",B);
+getch();
+}

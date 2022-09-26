@@ -1,0 +1,32 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a;
+float amnt,to,sur;
+clrscr();
+printf("the value of a:");
+scanf("%d",&a);
+if (a>50)
+{
+	amnt=(a-50)*0.50;
+}
+else if (a>100)
+{
+	a=a-100;
+	amnt=25+(100*0.75);
+}
+else if (a>100)
+{
+	a=a-100;
+	amnt=100+(100*1.20);
+}
+else
+{
+	amnt=220+(100*1.50);
+}
+sur=amnt+(amnt*0.20);
+to=sur;
+printf("%d",to);
+getch();
+}

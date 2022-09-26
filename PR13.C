@@ -1,0 +1,15 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int A;
+float B;
+const float C=1.8;
+const int D=32;
+clrscr();
+printf("The room temperature in degree celsius is:");
+scanf("%d",&A);
+B=(A*C)+D;
+printf("The room temperature in Fahrenheit is:%.1f",B);
+getch();
+}
